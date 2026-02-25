@@ -1,4 +1,4 @@
-## Sales Data Cleaning Demo
+## Sales Data Cleanup + KPI Dashboard (Demo)
 
 This project is a portfolio-ready demo that cleans a messy retail sales dataset, validates data quality, computes KPIs and prepares an Excel-first dashboard.
 
