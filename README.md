@@ -1,11 +1,11 @@
 ## Sales Data Cleaning Demo
 
-This project is a portfolio-ready demo that cleans a messy retail sales dataset, validates data quality, computes KPIs, and prepares an Excel-first dashboard.
+This project is a portfolio-ready demo that cleans a messy retail sales dataset, validates data quality, computes KPIs and prepares an Excel-first dashboard.
 
 ### Project structure
 
 - `data/raw/` – original Kaggle file (`kaggle_original.csv`) and intentionally messy input (`messy_raw.csv`).
-- `data/processed/` – cleaned outputs, KPI tables, validation summary, and data dictionary.
+- `data/processed/` – cleaned outputs, KPI tables, validation summary and data dictionary.
 - `notebooks/01_sales_cleaning.ipynb` – main, end-to-end notebook (inspection → cleaning → validation → KPIs → exports).
 - `outputs/` – Excel dashboard file and optional chart PNGs.
 - `screenshots/` – placeholders for portfolio screenshots (raw issues, validation summary, dashboard, KPI table).
