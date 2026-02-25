@@ -1,0 +1,11 @@
+column	dtype	description
+InvoiceNo	object	Unique order / invoice identifier.
+StockCode	object	StockCode field from cleaned sales data.
+Description	object	Product description or name for the line item.
+Quantity	float64	Number of units sold per line after numeric coercion.
+InvoiceDate	datetime64[ns]	Order date/time parsed to a consistent datetime format.
+UnitPrice	float64	Unit selling price after numeric coercion.
+CustomerID	object	Unique customer identifier (may be missing).
+Country	object	Geographic region for the order (e.g. Country).
+Revenue	float64	Computed revenue = Quantity * UnitPrice after cleaning.
+year_month	object	year_month field from cleaned sales data.

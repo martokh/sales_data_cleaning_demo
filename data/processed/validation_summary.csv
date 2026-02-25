@@ -1,0 +1,2 @@
+rows_in,rows_out,duplicates_removed,bad_dates_removed,invalid_rows_removed,customer_missing,qty_nan,price_nan
+541929,222760,2305,311652,5212,59048,0,0
